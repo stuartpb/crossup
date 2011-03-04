@@ -117,6 +117,8 @@ as{d = "Tools 'n' toys";
     package "anjuta",
   },
   package "erlang",
+  package "m4", --assuming this isn't core
+  package "redis",
 }
 
 as{d = "Games";
