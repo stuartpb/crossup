@@ -99,6 +99,10 @@ as{d = "Tools 'n' toys";
   package "dasher",
   package "espeak",
   package "fontforge",
+  {d = "Lisp";
+    package "lisp",
+    package "arc", --http://ycombinator.com/arc/tut.txt
+  }
   {d = "Graphviz";
     package "graphviz",
     package "graphviz-cairo",
@@ -106,7 +110,7 @@ as{d = "Tools 'n' toys";
   {d = "Python";
     on=false;
     package "python",
-    package "eric",
+    package "idle",
   },
   {d = "Ruby";
     on=false;
