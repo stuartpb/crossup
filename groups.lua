@@ -96,13 +96,17 @@ as{d = "Tools 'n' toys";
   package "blender",
   package "inkscape",
   package "audacity",
-  package "dasher",
   package "espeak",
   package "fontforge",
+  {d = "Interfaces";
+    package "dasher",
+    package "fsv", --File System Visualizer
+    package "3dwm",
+  },
   {d = "Lisp";
     package "lisp",
     package "arc", --http://ycombinator.com/arc/tut.txt
-  }
+  },
   {d = "Graphviz";
     package "graphviz",
     package "graphviz-cairo",
@@ -129,7 +133,7 @@ as{d = "Games";
   package "beneath-a-steel-sky",
   package "dopewars",
   package "flight-of-the-amazon-queen",
-  --freeciv
+  package "freeciv",
   package "freedoom",
   package "freedm",
   package "golly",
