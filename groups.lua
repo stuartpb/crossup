@@ -99,6 +99,7 @@ as{d = "Tools 'n' toys";
   package "espeak",
   package "fontforge",
   {d = "Interfaces";
+    package "eaglemode",
     package "dasher",
     package "fsv", --File System Visualizer
     package "3dwm",
