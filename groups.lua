@@ -126,7 +126,7 @@ as{d = "Tools 'n' toys";
     package "anjuta",
   },
   package "erlang",
-  package "m4", --assuming this isn't core
+  package "m4", --this is in base-devel on arch
   package "redis",
 }
 
