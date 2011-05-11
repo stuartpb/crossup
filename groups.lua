@@ -36,6 +36,7 @@ as{d = "Window managers";
   package "xfce4",
   package "awesome", --Xephyr (xserver-xephyr) is kind of necessary
                      --for development
+  package "metisse", --AUR on Arch
 }
 
 as{d = "Media player";
