@@ -102,6 +102,7 @@ as{d = "Tools 'n' toys";
   {d = "Interfaces";
     package "eaglemode",
     package "dasher",
+    package "cellwriter", --AUR on Arch
     package "fsv", --File System Visualizer
     package "3dwm",
   },
