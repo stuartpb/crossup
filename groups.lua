@@ -88,6 +88,7 @@ as{d = "Sounds";
 as{d = "Tools 'n' toys";
   {d = "Git";
     package "git",
+    package "hub", --AUR on Arch
     package "git-gui",
     package "giggle",
     package "gitg",
