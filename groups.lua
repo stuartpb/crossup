@@ -6,19 +6,8 @@ local function as(s)
 end
 
 as{d = "Resources";
-  package "words", --"wamerican" and "wbritish" in Ubuntu
-  package "ttf-ms-fonts", --also consolas
-  package "ttf-droid",
-  --{d = "Templates";
-    --iuplua .wlua file
-    --coding cookie/shbang'd .lua
-    --shbang'd sh
-  --},
-  --{d = "Information";
-    --{d = "Readers";
-      -- wikipediadumpreader
-      -- goldendict
-    --},
+  {d = "Reference sets and lists";
+    package "words", --"wamerican" and "wbritish" in Ubuntu
     -- Devil's Dictionary (dict-devil)
     -- dict-foldoc
     -- dict-gcide
@@ -27,9 +16,24 @@ as{d = "Resources";
     -- dictionaries-common
     -- miscfiles (http://www.gnu.org/software/miscfiles/)
 
-    --Wikipedia dump
-    --rsync -avz ftp.rfc-editor.org::rfcs-text-only ~/Documents/RFCs
-  --}
+    -- Wikipedia dump
+    -- rsync -avz ftp.rfc-editor.org::rfcs-text-only ~/Documents/RFCs
+
+    --{d = "Readers";
+      -- wikipediadumpreader
+      -- goldendict
+    --},
+  },
+  {d = "Fonts";
+    package "ttf-ms-fonts", --also consolas
+    package "ttf-droid",
+    ofl_font "beteckna",
+  },
+  --{d = "Templates";
+    --iuplua .wlua file
+    --coding cookie/shbang'd .lua
+    --shbang'd sh
+  --},
 }
 
 as{d = "Window managers";
